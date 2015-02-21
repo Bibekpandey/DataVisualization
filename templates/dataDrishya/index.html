@@ -22,34 +22,133 @@
             stroke: #000;
                 shape-rendering: crispEdges;
 }
+.district{
+    fill:blue;
+    font:30px sans-serif;
+}
+#hide:hover
+{
+    color:blue;
+    cursor:help;
+}
 
 </style>
+<link rel="stylesheet" href="{% static 'dataDrishya/css/bootstrap.css' %}" > 
 
-<svg class="chart"></svg>
-<script src="{% static 'dataDrishya/js/d3.min.js' %}" > </script>
-<script src="{% static 'dataDrishya/js/lineplotter.js' %}" > </script>
-<script src="{% static 'dataDrishya/js/jquery.min.js' %}" > </script>
+<body >
+<header class="masthead">
+    <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <h1><a href="#" title="Bootstrap Template">DATA DRISHYA</a>
+          </h1>
+      </div>
+          </div>
+    </div>
+</header>
+<div class="navbar navbar-custom navbar-inverse navbar-static-top" id="nav">
+    </div><!--/.navbar -->
+ 
+    <div class="container">
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6 text-center"><h2 id="header">choose the data set below</h2></div>
+        <div class="col-md-3"></div>
+    </div>
+    <div class="row">
+        <div class="col-md-12" id="graph" style="border:solid 2px #9b9">
+            <svg class="chart"></svg>
+        </div>
+        <div id="toggle">
+            <span id="hide" onclick="showGraph('')" style="font-size:13px">Hide Districts</a>
+        </div>
+    </div>
+    </div>
+
+    {# now the select bar #}
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <input type="radio" onclick="showGraph('literacy')" name="opt">Literacy rates of Districts</br>
+                <input type="radio" onclick="showGraph('pci')" name="opt">Per Capita income of Districts</br>
+                <input name="opt" type="radio" onclick="showGraph('correlation')">Correlation of PCI and Literacy rates<br>
+            </div>
+            <div class="col-md-8">
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="{% static 'dataDrishya/jsd3/d3.min.js' %}" > </script>
+<script src="{% static 'dataDrishya/jsd3/lineplotter.js' %}" > </script>
+<script src="{% static 'dataDrishya/jsd3/jquery.min.js' %}" > </script>
+<script src="{% static 'dataDrishya/js/bootstrap.js' %}" > </script>
 
 <script>
 
-var margin = {top:20, right:30, bottom:50, left:40};
-var test = $.getJSON("{% static 'dataDrishya/js/jsons/literacy.json' %}", function(data){
+var cnt = 1;
+var current = '';
+function showGraph(file)
+{
+    var hide = document.getElementById("hide");
+    if(file==''){
+        cnt+=1;
+        cnt=cnt%2;
+        hide.innerHTML = cnt!=0 ? "Hide Districts":"Show Districts";
+    }
+    else
+    {
+        current = file;
+        cnt=1;
+        hide.innerHTML = cnt!=0 ? "Hide Districts":"Show Districts";
+    }
+    showFile(current);
+}
+
+    function showFile(file)
+    {
+        d3.select("#graph").selectAll(".chart").remove();
+        d3.select("#graph").append("svg").attr("class","chart");
+
+        var header = document.getElementById("header");
+        var margin = {top:20, right:30, bottom:50, left:40};
+
+        if(file=="literacy")
+        {
+            header.innerHTML = "Plot of Districts and percentage of Literacy rate";
+        var test = $.getJSON("{% static 'dataDrishya/jsd3/jsons/literacy.json' %}", function(data){
     
-    alert(data.data);
-    lineplot("chart", data.data, margin, 1400, 500, data.attrX, data.attrY, "blue");
-});
-var test2 = $.getJSON("{% static 'dataDrishya/js/jsons/pci.json' %}", function(data){
+        // sort data by x label
+        data.data.sort(function(a,b) { return d3.ascending(a[data.attrX], b[data.attrX]);});
+
+        lineplot("chart", data.data, margin, 1100, 400, data.attrX, data.attrY, "blue", cnt);
+    });
+        }
+        else if (file=="pci")
+        {
+            header.innerHTML = "Plot of Districts and Per Capita Income";
+            var test = $.getJSON("{% static 'dataDrishya/jsd3/jsons/pci.json' %}", function(data){
     
-    alert(data.data);
-    lineplot("chart", data.data, margin, 1400, 500, data.attrX, data.attrY, "red");
-});
+        // sort data by x label
+        data.data.sort(function(a,b) { return d3.ascending(a[data.attrX], b[data.attrX]);});
 
+        lineplot("chart", data.data, margin, 1100, 400, data.attrX, data.attrY, "blue", cnt);
+    });
+    }
+        else
+        {
+            header.innerHTML = "Literacy Rate(X) vS Per Capita Income(Y)";
+             var test = $.getJSON("{% static 'dataDrishya/jsd3/jsons/correlation.json' %}", function(data){
+    
+        // sort data by x label
+        data.data.sort(function(a,b) { return d3.ascending(a[data.attrX], b[data.attrX]);});
 
+        lineplot("chart", data.data, margin, 1100, 400, data.attrX, data.attrY, "blue", cnt);
+    });
+        }
 
-        var jsondata = '{ "title":"ulala", "data":[ {"name":"bibek", "value":14},{"name":"pandey", "value":34 }, {"name":"inisn", "value":24 }]}';
-
-            var json = JSON.parse(jsondata);
-
+    }
 
 </script>
 

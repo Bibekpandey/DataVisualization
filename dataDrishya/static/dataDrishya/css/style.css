@@ -1,0 +1,122 @@
+body
+{
+	color:#124;
+}
+.jumbotron 
+{
+	/*background-color: #18bc9c;*/
+	background-color:#fff;
+	min-height: 200px;
+	margin-top:-40px;
+	margin-bottom:0px;
+	margin-left:80px;
+	margin-right:80px;	
+}
+.heading 
+{
+	background-color:#fff;
+	color:#124;
+}
+
+.navbar
+{
+	border-radius:0px;
+}
+
+.boxes
+{
+	margin-top:-120px;
+}
+
+.bottombox
+{
+	margin-top:-75px;
+}
+.brand
+{
+	color:#fff;;
+}
+
+a:hover
+{
+	text-decoration:none;
+	color:#fff;
+}
+
+.result
+{
+	color:#fff;
+}
+
+.searchbar
+{
+	max-height:50px;
+	float: right;
+	margin-bottom:20px;
+	margin-top:-21px;
+	background:#123;
+	padding:10px;
+	padding-bottom:10px;
+}
+
+.search-button
+{
+	background:#05795a;
+	border:0px;
+	min-height:30px;
+	color:#125;
+}
+.search-button:hover
+{
+	background:#079b7b;
+}
+
+.search-textbox
+{
+	background:#789;
+	border:0px;
+	min-height:30px;
+	color:#124	;
+}
+
+.search-header
+{
+	margin-top:0px;
+	text-align:center;
+	color:#124;
+}
+
+.greeting
+{	
+	color:#fff;
+	padding-left:20px;
+}
+
+.result
+{
+	height:150px;
+	width:100%;
+	color:#fff;
+}
+.result-title
+{
+	color:#fff;
+}
+
+.paginator
+{
+	text-decoration:bold;
+	color:#124;
+}
+
+.message
+{
+	text-align:center;
+}
+
+.index
+{
+	height:250px;
+	width:100%;
+	color:#fff;
+}

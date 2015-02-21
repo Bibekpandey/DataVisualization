@@ -39,7 +39,10 @@ function lineplot(svgclass,data,margin, width, height,attrX, attrY, color, showD
         .attr("font-size", "1px")
         .attr("x", -25)
         .attr("transform", "rotate(-90)")
-        .append("text");
+        .append("text")
+        .text("bibek")
+        .attr("x", height-20)
+        .attr("y", -width/2);
 
     chart.append("g")
         .attr("class", "y axis")
@@ -68,7 +71,6 @@ function lineplot(svgclass,data,margin, width, height,attrX, attrY, color, showD
     //.attr("height", function(d) { return height - y(d[[attrY]']); })
     //.attr("width", x.rangeBand());
 
-    /*
     chart.append("g")
         .attr("class", "y axis")
         .call(yAxis)
@@ -79,7 +81,6 @@ function lineplot(svgclass,data,margin, width, height,attrX, attrY, color, showD
         .attr("dy", ".9em")
         .style("text-anchor", "end")
         .text("Ylabel");
-        */
 
  for (i=1;i<data.length;i++)
     {
