@@ -69,6 +69,6 @@ function lineplot(svgclass,data,margin, width, height,attrX, attrY, color)
             .attr("stroke-width", "3");
 
     }
-
-
 }
+
+
