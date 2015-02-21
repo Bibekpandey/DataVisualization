@@ -1,0 +1,380 @@
+{
+    "title": "PCI per district",
+    "data": [
+        {
+            "Category": "Per capita income",
+            "Value": "813",
+            "Districts": "Taplejung"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "738",
+            "Districts": "Sankhuwasabha"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "1140",
+            "Districts": "Solukhumbu"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "670",
+            "Districts": "Panchthar"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "780",
+            "Districts": "Ilam"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "778",
+            "Districts": "Dhankuta"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "878",
+            "Districts": "Terhathum"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "618",
+            "Districts": "Bhojpur"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "592",
+            "Districts": "Okhaldhunga"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "701",
+            "Districts": "Khotang"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "569",
+            "Districts": "Udayapur"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "759",
+            "Districts": "Jhapa"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "774",
+            "Districts": "Morang"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "683",
+            "Districts": "Sunsari"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "496",
+            "Districts": "Saptari"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "426",
+            "Districts": "Siraha"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "571",
+            "Districts": "Dolakha"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "687",
+            "Districts": "Sindhupalchok"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "941",
+            "Districts": "Rasuwa"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "509",
+            "Districts": "Sindhuli"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "588",
+            "Districts": "Ramechhap"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "866",
+            "Districts": "Kavrepalanchok"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "1172",
+            "Districts": "Lalitpur"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "854",
+            "Districts": "Bhaktapur"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "1710",
+            "Districts": "Kathmandu"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "672",
+            "Districts": "Nuwakot"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "607",
+            "Districts": "Dhading"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "873",
+            "Districts": "Makwanpur"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "580",
+            "Districts": "Dhanusha"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "421",
+            "Districts": "Mahottari"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "501",
+            "Districts": "Sarlahi"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "468",
+            "Districts": "Rautahat"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "916",
+            "Districts": "Bara"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "757",
+            "Districts": "Parsa"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "951",
+            "Districts": "Chitawan"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "1959",
+            "Districts": "Manang"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "1189",
+            "Districts": "Mustang"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "643",
+            "Districts": "Gorkha"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "734",
+            "Districts": "Lamjung"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "663",
+            "Districts": "Tanahu"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "752",
+            "Districts": "Syangja"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "966",
+            "Districts": "Kaski"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "636",
+            "Districts": "Myagdi"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "627",
+            "Districts": "Parbat"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "537",
+            "Districts": "Baglung"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "465",
+            "Districts": "Gulmi"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "609",
+            "Districts": "Palpa"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "562",
+            "Districts": "Arghakhanchi"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "716",
+            "Districts": "Nawalparasi"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "695",
+            "Districts": "Rupandehi"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "613",
+            "Districts": "Kapilbastu"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "643",
+            "Districts": "Dolpa"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "623",
+            "Districts": "Jumla"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "358",
+            "Districts": "Kalikot"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "536",
+            "Districts": "Mugu"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "491",
+            "Districts": "Humla"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "421",
+            "Districts": "Pyuthan"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "398",
+            "Districts": "Rolpa"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "484",
+            "Districts": "Rukum"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "486",
+            "Districts": "Salyan"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "563",
+            "Districts": "Surkhet"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "424",
+            "Districts": "Dailekh"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "378",
+            "Districts": "Jajarkot"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "698",
+            "Districts": "Dang"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "701",
+            "Districts": "Banke"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "672",
+            "Districts": "Bardiya"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "324",
+            "Districts": "Bajura"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "301",
+            "Districts": "Bajhang"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "388",
+            "Districts": "Darchula"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "332",
+            "Districts": "Achham"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "479",
+            "Districts": "Doti"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "473",
+            "Districts": "Dadeldhura"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "354",
+            "Districts": "Baitadi"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "583",
+            "Districts": "Kailali"
+        },
+        {
+            "Category": "Per capita income",
+            "Value": "580",
+            "Districts": "Kanchanpur"
+        }
+    ]
+}
