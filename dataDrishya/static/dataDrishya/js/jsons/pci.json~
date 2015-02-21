@@ -1,5 +1,8 @@
 {
     "title": "PCI per district",
+"bibek": "pandey",
+    "attrX": "Districts",
+    "attrY": "Value",
     "data": [
         {
             "Category": "Per capita income",
