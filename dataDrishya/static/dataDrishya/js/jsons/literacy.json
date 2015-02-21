@@ -1,4 +1,6 @@
 {
+    "title": "Literacy Rate",
+    "attrY": "Value",
     "data": [
         {
             "Percentage": 94,
@@ -301,5 +303,5 @@
             "District": "Darchula"
         }
     ],
-    "title": "Literacy Rate"
+    "attrX": "District"
 }
