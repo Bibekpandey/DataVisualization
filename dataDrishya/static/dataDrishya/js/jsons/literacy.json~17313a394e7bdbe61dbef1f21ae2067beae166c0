@@ -1,0 +1,308 @@
+{
+	"attrX": "District",
+	"attrY": "Percentage",
+
+    "data": [
+        {
+            "Percentage": 94,
+            "District": "Taplejung"
+        },
+        {
+            "Percentage": 96,
+            "District": "Panchthar"
+        },
+        {
+            "Percentage": 97,
+            "District": "Ilam"
+        },
+        {
+            "Percentage": 93,
+            "District": "Jhapa"
+        },
+        {
+            "Percentage": 88,
+            "District": "Morang"
+        },
+        {
+            "Percentage": 86,
+            "District": "sunsari"
+        },
+        {
+            "Percentage": 96,
+            "District": "Dhankuta"
+        },
+        {
+            "Percentage": 96,
+            "District": "Terhathum"
+        },
+        {
+            "Percentage": 92,
+            "District": "Sankhuwasabha"
+        },
+        {
+            "Percentage": 94,
+            "District": "Bhojpur"
+        },
+        {
+            "Percentage": 89,
+            "District": "Solukhumbu"
+        },
+        {
+            "Percentage": 89,
+            "District": "Okhaldhunga"
+        },
+        {
+            "Percentage": 93,
+            "District": "Khotang"
+        },
+        {
+            "Percentage": 91,
+            "District": "Udaypur"
+        },
+        {
+            "Percentage": 69,
+            "District": "Saptari"
+        },
+        {
+            "Percentage": 65,
+            "District": "Siraha"
+        },
+        {
+            "Percentage": 64,
+            "District": "Dhanusa"
+        },
+        {
+            "Percentage": 59,
+            "District": "Mahottari"
+        },
+        {
+            "Percentage": 60,
+            "District": "Sarlahi"
+        },
+        {
+            "Percentage": 82,
+            "District": "Sindhuli"
+        },
+        {
+            "Percentage": 90,
+            "District": "Ramechhap"
+        },
+        {
+            "Percentage": 91,
+            "District": "Dolkha"
+        },
+        {
+            "Percentage": 86,
+            "District": "Sindhupalanchok"
+        },
+        {
+            "Percentage": 92,
+            "District": "Kavre"
+        },
+        {
+            "Percentage": 95,
+            "District": "Lalitpur"
+        },
+        {
+            "Percentage": 96,
+            "District": "Bhaktapur"
+        },
+        {
+            "Percentage": 96,
+            "District": "Kathmanduu"
+        },
+        {
+            "Percentage": 86,
+            "District": "Nuwakot"
+        },
+        {
+            "Percentage": 80,
+            "District": "Rasuwa"
+        },
+        {
+            "Percentage": 89,
+            "District": "Dhading"
+        },
+        {
+            "Percentage": 90,
+            "District": "Makwanpur"
+        },
+        {
+            "Percentage": 54,
+            "District": "Rautahat"
+        },
+        {
+            "Percentage": 67,
+            "District": "Bara"
+        },
+        {
+            "Percentage": 69,
+            "District": "Parsa"
+        },
+        {
+            "Percentage": 95,
+            "District": "Chitwan"
+        },
+        {
+            "Percentage": 92,
+            "District": "Gorkha"
+        },
+        {
+            "Percentage": 95,
+            "District": "Lamjung"
+        },
+        {
+            "Percentage": 95,
+            "District": "Tanahu"
+        },
+        {
+            "Percentage": 97,
+            "District": "Syangja"
+        },
+        {
+            "Percentage": 97,
+            "District": "Kaski"
+        },
+        {
+            "Percentage": 94,
+            "District": "Manang"
+        },
+        {
+            "Percentage": 89,
+            "District": "Mustang"
+        },
+        {
+            "Percentage": 95,
+            "District": "Myagdi"
+        },
+        {
+            "Percentage": 96,
+            "District": "Parbat"
+        },
+        {
+            "Percentage": 94,
+            "District": "Baglung"
+        },
+        {
+            "Percentage": 95,
+            "District": "Gulmi"
+        },
+        {
+            "Percentage": 97,
+            "District": "Palpa"
+        },
+        {
+            "Percentage": 90,
+            "District": "Nawalparasi"
+        },
+        {
+            "Percentage": 85,
+            "District": "Rupandehi"
+        },
+        {
+            "Percentage": 70,
+            "District": "Kapilvastu"
+        },
+        {
+            "Percentage": 95,
+            "District": "Arghakhachi"
+        },
+        {
+            "Percentage": 88,
+            "District": "Pyuthan"
+        },
+        {
+            "Percentage": 83,
+            "District": "Rolpa"
+        },
+        {
+            "Percentage": 84,
+            "District": "Rukum"
+        },
+        {
+            "Percentage": 87,
+            "District": "Salyan"
+        },
+        {
+            "Percentage": 90,
+            "District": "Dang"
+        },
+        {
+            "Percentage": 78,
+            "District": "Banke"
+        },
+        {
+            "Percentage": 89,
+            "District": "Bardiya"
+        },
+        {
+            "Percentage": 93,
+            "District": "Surkhet"
+        },
+        {
+            "Percentage": 84,
+            "District": "Dailekh"
+        },
+        {
+            "Percentage": 77,
+            "District": "Jajarkot"
+        },
+        {
+            "Percentage": 64,
+            "District": "Dolpa"
+        },
+        {
+            "Percentage": 67,
+            "District": "Jumla"
+        },
+        {
+            "Percentage": 75,
+            "District": "Kalikot"
+        },
+        {
+            "Percentage": 64,
+            "District": "Mugu"
+        },
+        {
+            "Percentage": 62,
+            "District": "Humla"
+        },
+        {
+            "Percentage": 75,
+            "District": "Bajura"
+        },
+        {
+            "Percentage": 72,
+            "District": "Bajhang"
+        },
+        {
+            "Percentage": 74,
+            "District": "Achham"
+        },
+        {
+            "Percentage": 77,
+            "District": "Doti"
+        },
+        {
+            "Percentage": 89,
+            "District": "Kailali"
+        },
+        {
+            "Percentage": 91,
+            "District": "Kanchanpur"
+        },
+        {
+            "Percentage": 89,
+            "District": "Dadeldhura"
+        },
+        {
+            "Percentage": 83,
+            "District": "Baitadi"
+        },
+        {
+            "Percentage": 87,
+            "District": "Darchula"
+        }
+    ],
+    "title": "Literacy Rate"
+}

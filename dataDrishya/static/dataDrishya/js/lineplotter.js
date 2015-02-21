@@ -1,7 +1,7 @@
 function lineplot(svgclass,data,margin, width, height,attrX, attrY, color)
 {
-    var widthM = 360,
-        heightM=500;
+    var widthM = width,
+        heightM=height;
     
     height = heightM - margin.top-margin.bottom;
     width = widthM - margin.left-margin.right;
@@ -18,8 +18,7 @@ function lineplot(svgclass,data,margin, width, height,attrX, attrY, color)
     
     var yAxis = d3.svg.axis()
         .scale(y)
-        .orient("left")
-        .ticks(10, "%");
+        .orient("left");
 
     var chart = d3.select("."+svgclass)
     .attr("width", widthM)
@@ -29,12 +28,17 @@ function lineplot(svgclass,data,margin, width, height,attrX, attrY, color)
 
 
     x.domain(data.map(function(d) { return d[attrX];}));
-    y.domain([0, d3.max(data, function(d) { return d[attrY]; })]);
+    y.domain([0, d3.max(data, function(d) { return +d[attrY]; })]);
 
         chart.append("g")
         .attr("class", "x axis")
         .attr("transform", "translate(0,"+height+")")
-        .call(xAxis);
+        .call(xAxis)
+        .selectAll("text")
+        .attr("y", -5)
+        .attr("font-size", "1px")
+        .attr("x", -25)
+        .attr("transform", "rotate(-90)");
 
     chart.append("g")
         .attr("class", "y axis")
@@ -46,7 +50,7 @@ function lineplot(svgclass,data,margin, width, height,attrX, attrY, color)
         .attr("class", "bar")
     .attr("cx", function(d) {return x(d[attrX])+ x.rangeBand()/2;})
         .attr("cy", function(d) { return y(d[[attrY]]);})
-        .attr("r", 3.5);
+        .attr("r", 2.5);
 
     //.attr("height", function(d) { return height - y(d[[attrY]']); })
     //.attr("width", x.rangeBand());
@@ -56,10 +60,10 @@ function lineplot(svgclass,data,margin, width, height,attrX, attrY, color)
         .call(yAxis)
         .append("text")
         .attr("transform", "rotate(-90)")
-        .attr("y", 6)
+        .attr("y", 1)
         .attr("dy", ".71em")
         .style("text-anchor", "end")
-        .text("Frequency");
+        .text("Ylabel");
 
  for (i=1;i<data.length;i++)
     {
@@ -70,5 +74,4 @@ function lineplot(svgclass,data,margin, width, height,attrX, attrY, color)
 
     }
 }
-
 

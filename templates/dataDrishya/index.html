@@ -25,20 +25,31 @@
 
 </style>
 
-dfsdlkfdsjf
 <svg class="chart"></svg>
 <script src="{% static 'dataDrishya/js/d3.min.js' %}" > </script>
 <script src="{% static 'dataDrishya/js/lineplotter.js' %}" > </script>
+<script src="{% static 'dataDrishya/js/jquery.min.js' %}" > </script>
 
 <script>
 
-    var margin = {top:20, right:30, bottom:30, left:40};
+var margin = {top:20, right:30, bottom:50, left:40};
+var test = $.getJSON("{% static 'dataDrishya/js/jsons/literacy.json' %}", function(data){
+    
+    alert(data.data);
+    lineplot("chart", data.data, margin, 1400, 500, data.attrX, data.attrY, "blue");
+});
+var test2 = $.getJSON("{% static 'dataDrishya/js/jsons/pci.json' %}", function(data){
+    
+    alert(data.data);
+    lineplot("chart", data.data, margin, 1400, 500, data.attrX, data.attrY, "red");
+});
+
+
 
         var jsondata = '{ "title":"ulala", "data":[ {"name":"bibek", "value":14},{"name":"pandey", "value":34 }, {"name":"inisn", "value":24 }]}';
 
             var json = JSON.parse(jsondata);
 
-lineplot("chart", json.data, margin, 500, 500, "name", "value", "blue");
 
 </script>
 
